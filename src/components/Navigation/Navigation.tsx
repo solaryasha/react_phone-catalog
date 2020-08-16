@@ -1,12 +1,15 @@
-import React, { FC } from 'react';
+import React from 'react';
+import { Logo } from '../Logo/Logo';
+import { FavoritesIcon } from '../Favorites/FavoritesIcon';
+import { CartIcon } from '../Cart/Cart';
 
 export const Navigation = () => {
   return (
     <div>
       <Logo />
-      <Nav />
-      <Favorites />
-      <Cart />
+      {/* <Nav /> */}
+      <FavoritesIcon />
+      <CartIcon />
     </div>
   );
 };
