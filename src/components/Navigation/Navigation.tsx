@@ -7,7 +7,7 @@ export const Navigation = () => {
   return (
     <div>
       <Logo />
-      {/* <Nav /> */}
+      {/* <NavBar /> */}
       <FavoritesIcon />
       <CartIcon />
     </div>

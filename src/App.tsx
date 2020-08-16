@@ -1,12 +1,12 @@
 import React from 'react';
-
-import './App.scss';
+import './styles/main.scss';
 // import { Switch, Route } from 'react-router-dom';
 import { Navigation } from './components/Navigation/Navigation';
 
 const App = () => (
   <div className="App">
     <Navigation />
+    <h1>MOTHERFUCKER</h1>
     {/* <Switch>
       <Route path="/" component={Home} />
       <Route path="/phones" component={Phones} />

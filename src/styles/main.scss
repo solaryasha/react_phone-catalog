@@ -1,0 +1,12 @@
+@import "fonts/fonts";
+@import "typography/typography";
+@import "./reset.css";
+// @import "blocks";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
